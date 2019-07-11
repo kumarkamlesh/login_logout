@@ -1,0 +1,75 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reistration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <!-- Custom Theme files -->
+    <!-- //Custom Theme files -->
+    <!-- web font -->
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+    <!-- //web font -->
+    <link href="{% static 'login_user_model/style.css' %}" rel="stylesheet"/>
+</head>
+<body>
+<!-- main -->
+<div class="main-w3layouts wrapper">
+    <h1>Sign Up here</h1>
+    <div class="main-agileinfo">
+        <div class="agileits-top">
+            <form action="{% url 'login_user_model:registration' %}" method="post">
+                {% csrf_token %}
+                {#                <input class="text" type="text" name="firstname" placeholder="Firstname" required="">#}
+
+                {#                <input class="text" type="text" name="lastname" placeholder="Lastname" required="">#}
+
+
+                <input class="text" type="text" id="username" name="username" placeholder="Username" required="">
+
+                <input class="text email" type="email" id="email" name="email" placeholder="Email" required="">
+
+                <input class="text w3lpass" type="password" id="password1" name="password"
+                       placeholder="Confirm Password" required="">
+                <span id="msg1"></span>
+
+                <input class="text" type="password" id="password2" name="c_password" placeholder="Password" required="">
+                <span id="msg2"></span>
+
+                <div class="wthree-text">
+                    <label class="anim">
+                        <input type="checkbox" name="checkboxs" class="checkbox" required="">
+
+                        <span>I Agree To The Terms & Conditions</span>
+                    </label>
+                    <div class="clear"></div>
+                </div>
+                <input type="submit" id='student_button' value="SIGNUP">
+            </form>
+            <p>have an Account? <a href="{% url 'login_user_model:login' %}"> Login Now!</a></p>
+        </div>
+    </div>
+    <!-- copyright -->
+    <div class="colorlibcopy-agile">
+        <p>© 2019 Signup Form. All rights reserved | Design by KK <a href="https://colorlib.com/" target="_blank">Colorlib</a>
+        </p>
+    </div>
+
+</div>
+<!-- //main -->
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="{% static 'login_user_model/validation.js' %}">
+
+</script>
+
+</html>
