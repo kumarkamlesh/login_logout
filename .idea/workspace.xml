@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9852eb9-2237-4d01-af22-f2557b526b9e" name="Default" comment="" />
+    <list default="true" id="a9852eb9-2237-4d01-af22-f2557b526b9e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_user_model/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/login_user_model/models.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,13 +50,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login_user_model/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
+            <state relative-caret-position="135">
               <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/login_user_model/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-104">
+              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,6 +85,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -79,7 +97,6 @@
         <option value="$PROJECT_DIR$/login_user_model/static/login_user_model/login.css" />
         <option value="$PROJECT_DIR$/login_user_model/templates/login_user_model/success.html" />
         <option value="$PROJECT_DIR$/login_user_model/admin.py" />
-        <option value="$PROJECT_DIR$/login_user_model/models.py" />
         <option value="$PROJECT_DIR$/login_user_model/static/login_user_model/validation.js" />
         <option value="$PROJECT_DIR$/login_user_model/token.py" />
         <option value="$PROJECT_DIR$/login_user_model/templates/login_user_model/send_email.html" />
@@ -90,6 +107,7 @@
         <option value="$PROJECT_DIR$/login_user_model/templates/login_user_model/login.html" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/login_logout/settings.py" />
+        <option value="$PROJECT_DIR$/login_user_model/models.py" />
       </list>
     </option>
   </component>
@@ -108,6 +126,7 @@
     <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -125,6 +144,11 @@
               <item name="login_logout" type="b2602c69:ProjectViewProjectNode" />
               <item name="login_logout" type="462c0819:PsiDirectoryNode" />
               <item name="login_logout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_logout" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_logout" type="462c0819:PsiDirectoryNode" />
+              <item name="login_user_model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -201,9 +225,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5084112" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.62990654" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19498383" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -543,16 +567,6 @@
     <entry file="file://$PROJECT_DIR$/login_logout/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/login_user_model/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login_user_model/static/login_user_model/validation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -634,10 +648,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login_user_model/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
+        <state relative-caret-position="135">
           <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_user_model/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -29,10 +29,10 @@ class MyUserManager(BaseUserManager):
 
 # Create your models here.
 class UserData(AbstractBaseUser, PermissionsMixin):
-    username = models.CharField(max_length=50, null=True, blank=True)
+    username = models.CharField(max_length=100, null=True, blank=True)
     email = models.EmailField(unique=True, null=True)
-    password = models.CharField(max_length=20)
-    c_password = models.CharField(max_length=20)
+    password = models.CharField(max_length=100)
+    c_password = models.CharField(max_length=100)
 
     is_staff = models.BooleanField(
         'staff status',
